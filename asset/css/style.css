@@ -1,12 +1,113 @@
-#Header{    
-    
+/* reset css */
+*{  
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
 }
-#Slider{    
-    
+html{   
+    font-family: Arial, Helvetica, sans-serif;
 }
-#Content{   
-    
+
+#Main{  
+
 }
-#Footer{    
-    
+/* -----------Header---------- */
+#header{    
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0px;
+    width: 100%;
+    height: 46px;
+    background-color: #000;
+}
+.nav{   
+    float: left;
+}
+.nav > li{    
+    display: inline-block;
+    position: relative;
+}
+.nav > li > a{
+    display: inline-block;
+    height: 46px;
+    line-height: 46px;
+    font-size: 15px;
+    padding: 0 24px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav li:hover .subnav{  
+    display: block;
+}
+.nav > li:hover > a,
+.subnav > li:hover >a{  
+    color: #000;
+    background-color: #ccc;
+}
+
+.subnav{    
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+.subnav > li > a{    
+    display: block;
+    padding: 8px 16px;
+    color: #000; 
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.nav .menu-down{ 
+    color: #fff;
+    font-size: 12px;
+
+}
+.search{    
+    float: right;
+    display: inline-block;
+    line-height: 46px;
+    font-size: 15px;
+    padding: 0 24px;
+    color: #fff;
+}
+#header .search:hover{    
+    background-color: #f44336;
+
+}
+
+.fas .fa-caret-down{   
+    color: #fff;
+}
+/* -----------slider---------- */
+
+#slider{    
+    margin-top: 46px;
+    padding-top: 50%;   /*bằng 50% chiều dài của chính nó*/
+    background:url(/asset/image/newyork.jpg) top center / cover no-repeat ;
+    /* Shorthand : background : url () position size repeat
+    background-image: url(/asset/image/newyork.jpg);
+    background-position: top center ; 
+`   background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-image: linear-gradient(90deg,rgba(255,255,0,.5),rgba(122, 10, 173, 0.5)); */
+}
+#content{   
+
+}
+#tour{  
+
+}
+#contact{   
+
+}
+#footer{    
+
 }
