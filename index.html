@@ -31,15 +31,154 @@
             <i class="search ti-search"></i>
         </div>
 <!-- /* ----------- Slider ---------- */ -->
+
         <div id="slider">
+            <div class="t-slide">
+                <h2 class="t-slide-title">HOÀI HOÀI</h2>
+                <p class="t-slide-description">Đây là 1 cô gái xinh đẹp</p>
+            </div>
+        </div>
+        
+<!-- /* ----------- About content ---------- */ -->
+
+        <div id="content">
+            <div class="content-section">   
+                <h2 class="cs-heading">THE BAND</h2>
+                <p class="cs-sub-heading">We love music</p>
+            </div>
+            <p class="about">
+                We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            
+            <!-- MEMBER -->
+
+            <div class="member">
+                <div class="each-member">
+                    <p class="member-name">Name</p>
+                    <img class="member-avatar" src="./asset/image/bandmember.jpg" alt="Member Name">
+                </div>
+                <div class="each-member">
+                    <p class="member-name">Name</p>
+                    <img class="member-avatar" src="./asset/image/bandmember.jpg" alt="Member Name">
+                </div>
+                <div class="each-member">
+                    <p class="member-name">Name</p>
+                    <img class="member-avatar" src="./asset/image/bandmember.jpg" alt="Member Name">
+                    <div class="clear"></div>
+                </div>
+            </div> 
         </div>
 
+    <!-- /* ----------- Tour content ---------- */ -->
+
+            <div class="ticket">                  
+                <div id="content">
+                    <div class="content-section">   
+                        <h2 class="cs-heading white">TOUR DATES</h2>
+                        <p class="cs-sub-heading white">Remember to book your tickets!</p>
+                    </div>
+                <ul class="ticket-list ">
+                    <li class="ticket-date">September<span class="t-d-note">Sold out</span></li>
+                    <li class="ticket-date">October<span class="t-d-note">Sold out</span></li>
+                    <li class="ticket-date">November<span class="t-d-quantity">3</span></li>
+                </ul>
+                <!-- Tour-list -->
+                <div class="place-list">
+                    <div class="place-item">
+                        <img src="./asset/image/newyork (1).jpg" alt="newyork" class="place-img">
+                        <div class="place-body">
+                            <h2 class="place-header">New York</h2>
+                            <p class="place-time">Fri 27 Nov 2016</p>
+                            <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <a href="#" class="place-btn">Buy Tickets</a>
+                        </div>
+                    </div>
+                    <div class="place-item">
+                        <img src="./asset/image/newyork (1).jpg" alt="newyork" class="place-img">
+                        <div class="place-body">
+                            <h2 class="place-header">New York</h2>
+                            <p class="place-time">Fri 27 Nov 2016</p>
+                            <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <a href="#" class="place-btn">Buy Tickets</a>
+                        </div>
+                    </div>
+                    <div class="place-item">
+                        <img src="./asset/image/newyork (1).jpg" alt="newyork" class="place-img">
+                        <div class="place-body">
+                            <h2 class="place-header">New York</h2>
+                            <p class="place-time">Fri 27 Nov 2016</p>
+                            <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <a href="#" class="place-btn">Buy Tickets</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+        </div>
+    </div>
+
+    <div id="content">
+        <div class="content-section">   
+            <h2 class="cs-heading">CONTACT</h2>
+            <p class="cs-sub-heading">Fan? Drop a note!</p>
+        </div>
+        <div class="row contact-content">
+            <div class="col col-half contact-info">
+                <p><i class="ti-location-pin"></i>Chicago, US</p>
+                <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                <p><i class="ti-email"></i>Email: mail@mail.com</p>
+            </div>
+            <div class="col col-half contact-form">
+                <form action="">
+                    <div class="row">   
+                        <div class="col col-half">
+                       <input type="text" name="" placeholder="Name" required id="" class="form-control">     
+                        </div>  
+                        <div class="col col-half">
+                       <input type="email" name="" placeholder="Email" required id="" class="form-control">     
+                        </div>
+                    </div>
+                    <div class="row mt-8">
+                        <div class="col col-full">
+                            <input type="text" name="" placeholder="Message" id="" class="form-control">
+                        </div>
+                    </div>
+                    <input class="form-submit-btn mt-16" type="submit" value="SEND">
+                </form>
+            </div>
+        </div>
+        
+</div>
+
+<!-- Modal tickets -->
+ <div class="modal"> 
+    <div class="modal_contain">
+        <header class="modal-heading">
+            <i class="fas fa-suitcase"></i>
+            Tickets
+            <i class="ti-close"></i>
+        </header>
+        <div class="modal_body">
+            <lable for="modal_input" class="modal_lable">
+                <i class="ti-shopping-cart"></i>
+                Tickets, $15 per person
+            <input type="text" class="modal_input" placeholder="How many?">
+            </lable>
+            <lable for="modal_input"  class="modal_lable">
+                <i class="ti-user"></i>
+                Send To
+            <input type="text" class="modal_input" placeholder="Enter email">
+            </lable>
+            <button class="modal-submit" >
+                pay <i class="ti-check"></i>
+            </button>
+            <footer class="modal_footer">
+                Need <a href="http://">help?</a>
+            </footer>
+            <div class="clear"></div>
+        </div>
+    </div>
+<!-- /* ----------- Contact content ---------- */ -->
 
 
-
-<!-- /* ----------- content ---------- */ -->
-
-        <div id="content"></div>
         <div id="tour"></div>
         <div id="contact"></div>
         <div id="footer"></div>
